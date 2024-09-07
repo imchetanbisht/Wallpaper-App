@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/universe"
+    tools:context=".SignupActivity2">
+
+    <FrameLayout
+        android:layout_width="347dp"
+        android:layout_height="586dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/layout_back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="167dp"
+            android:layout_height="148dp"
+            android:src="@drawable/signup_pic"
+            android:layout_marginLeft="85dp"
+            />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="SignUp to your Account"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="150dp"
+            android:textColor="#131313"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/signup_email"
+            android:layout_width="306dp"
+            android:layout_height="73dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="230dp"
+            android:background="@drawable/field_back"
+            android:drawableLeft="@drawable/baseline_email_24"
+            android:drawablePadding="8dp"
+            android:ems="10"
+            android:paddingLeft="15dp"
+            android:fontFamily="sans-serif-medium"
+            android:hint="Enter email"
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/signup_password"
+            android:layout_width="306dp"
+            android:layout_height="73dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="320dp"
+            android:background="@drawable/field_back"
+            android:drawableLeft="@drawable/baseline_key_24"
+            android:drawablePadding="8dp"
+            android:ems="10"
+            android:paddingLeft="15dp"
+            android:fontFamily="sans-serif-medium"
+            android:hint="Enter Password"
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/signupbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="SignUp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="430dp"
+            android:backgroundTint="#040D40"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="Already an User?"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="510dp"
+            android:textColor="#0B0A0A"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/login_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="Login"
+            android:textColor="#F80404"
+            android:layout_marginTop="510dp"
+            android:layout_marginLeft="230dp"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
